@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {}
+
+
+/* Header section */
+#header {
+    width: 100%;
+    height: 103px;
+    background-color: #fff;
+    /* position: fixed;
+    z-index: 1; */
+    box-shadow: 1px 1px #888888;
+}
+
+#header .header-icon {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+
+}
+.header-icon:hover {
+    cursor: pointer;
+}
+.logo {
+    width: 100px;
+}
+.nav {
+    margin-left: 10%;
+    /* display: inline-block; */
+    float: left;
+}
+.header-name {
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+    line-height: 25px;
+    font: 16px;
+    font-weight: 700;
+}
+.nav-right {
+    float: left;
+    margin-left: 200px;
+}
+.tim-kiem {
+    text-decoration: none;
+    /* margin-left: 200px; */
+
+    font: 16px;
+    float: left;
+}
+
+.search {
+    float: left ;
+    /* margin: 1px 13% 0 0 ; */
+    /* line-height: 25px; */
+}
+
+
+/* */
+.banner {
+    margin-top: 1px;
+    width: 1455px;
+}
+.banner img {
+    width: 100%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+.van-ban {
+    position: absolute;
+    top: 500px;
+    color: #fff;
+    left: 100px;
+}
+.van-ban h2 {
+    font-weight: 100;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+.van-ban .van-ban1 {
+    display: block;
+    float: left;
+    margin: 0 0px 0 20px;
+}
+.van-ban1 .gia-tieu-chuan {
+    font-size: 25px;
+}
+.van-ban1 .ten-gia {
+    font-size: 13px;
+}
+.content-slider {
+    padding: 0 50px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+
+/* content */
+#content {
+    width: 1250px;
+    /* background-color: brown; */
+    height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.content-top {
+
+}
+.dong-xe {
+
+}
+.loai-xe {
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.loai-xe img {
+    width: 350px;
+    margin-left: 15px;
+}
+.loai-xe p {
+    text-align: center;
+    font-size: 15px;
+    padding: 2px 0;
+
+}
+.loai-xe .gia {
+    margin-bottom: 150px;
+    margin-left: 60px;
+}
+
+
+/* content-center*/
+.content-center {
+    /* width: 700px;
+    height: 100px; */
+
+}
+.content-center h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    display: inline;
+}
+.content-center .a1 {
+    margin-top: 5px;
+}
+.content-center .a2 {
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 22px;
+}
+.content-center .van-ban1 {
+    /* float: left; */
+    margin-left: 20px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.content-center .van-ban1 .gia-tieu-chuan {
+    font-size: 30px;
+}
+.content-slider {
+    border-left: 1px #000 solid;
+    border-right: solid 1px #000;
+}
+
+
+/* */
+.thong-so h2 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+
+/***/
+.content-left {
+    display: block;
+    float: left;
+}
+.content-left img {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 400px;
+    margin-right: 70px;
+
+}
+.content-right {
+    float: right;
+    margin-top: 20px;
+    width: 640px;
+
+}
+.content-right .b {
+    /* border-bottom: 1px #000 solid; */
+}
+.content-right .b .b1 {
+     float: left;
+    display: block;
+    font-weight: bolder;
+    font-size: 16px;
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border-bottom: 1px #000 solid; */
+
+}
+.content-right .b .bb {
+    float: left;
+    padding-right: 370px;
+    /* border-top: 1px #000 solid; */
+
+}
+.content-right .b .bbb {
+    padding-right: 00px;
+}
+.content-right .b .b2 {
+    float: right;
+    padding-top: 10px;
+    /* border-bottom: 1px #000 solid; */
+    padding-bottom: 10px;
+
+
+}
+.content-right .b a {
+    text-decoration: none;
+    color: #000;
+
+}
+.content-right .b .b11 {
+    border-bottom: solid 2px #000;
+    padding-left: 610px;
+}
+
+.content-right a {
+    margin-top: 50px;
+    float: right;
+    padding: 15px 30px 15px 30px;
+    font-size: 17px;
+    background-color: #313639;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 300px;
+}
+.content-right a:hover {
+    background-color: #d5001c;
+}
+
+
+/* gallery*/
+ .gallery   h2 {
+    margin-right: 100px;
+    margin-left: 650px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.gallery {
+
+}
+ .gallery div {
+    margin-bottom: 100px;
+    width: 1400px;
+    height: 595px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery div img {
+    display: block;
+
+}
+.gallery div .img1 {
+    width: 345px;
+    float: left;
+}
+.gallery div .img2 {
+    width: 345px;
+    float: left;
+}
+.gallery div .img3 {
+    width: 690px;
+    float: right;
+    /* margin-left: 1px; */
+    margin-right: 20px;
+}
+.gallery div .img4 {
+    width: 690px;
+    float: left;
+}
+.gallery div .img5 {
+    width: 345px;
+    float: left;
+}
+.gallery div .img6 {
+    width: 345px;
+    float: left;
+}
+
+
+
+/* Footer*/
+#footer-section {
+    width: 1292px;
+    padding-top: 20px;
+    border-top: solid #ccc;
+    margin: 0 auto 20px;
+}
+.thong-tin {
+    display: inline-block;
+ }
+.ttll {
+    padding: 10px 0;
+    font-size: 14px;
+    opacity: 0.6;
+}
+.thong-tin h4 {
+    padding:0 0 10px 2px;
+    font-size: 14px;
+}
+.lien-lac {
+    padding-bottom: 10px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+.dia-chi {
+    margin-left: 20%;
+    padding-top: 10px;
+    display: inline-block;
+}
+.dia-chi h4 {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.dia-chi-porsche {
+    padding-bottom: 10px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+
+.lien-he {
+    padding: 10px 30px 20px 0;
+    float: right;
+}
+.lien-he h4 {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.lien-he a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+.ti-facebook {
+    color: #fff;
+    background-color: #385898 ;
+    border-radius: 5px;
+    padding: 2px;
+}
+.ti-twitter-alt {
+    color:rgb(29, 161, 242);
+}
+.ti-linkedin {
+    color: #fff;
+    background-color: #0a66c2 ;
+    border-radius: 5px;
+    padding: 2px;
+}
+.ti-youtube {
+    color:#000;
+}
+.lien-he p {
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+
+.background {
+    width: 100%;
+    height: 120px;
+    background-color: #191f22 ;
+}
+.background p {
+    color: #fff;
+    padding: 2.5% 0 0 5.5%;
+
+}
+
+
+
+
